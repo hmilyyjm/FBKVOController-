@@ -305,7 +305,7 @@ FBKVOController整体的实现就介绍完了.FBKVOController给我的感觉是�
 ```
 
 ###NSHash​Table & NSMap​Table
-有一篇文章讲的不多，直接贴链接吧
+有一篇文章讲的不错，直接贴链接吧
 [@click](http://nshipster.cn/nshashtable-and-nsmaptable/) 
 
 ##总结
@@ -314,7 +314,7 @@ FBKVOController对于喜好使用kvo的工程师来说，是一个好的，精�
 优点如下：
 
 1. 提供了干净的block的回调，避免了处理这个函数的逻辑散落的到处都是。
-2. 不用担心remove问题，不用再在dealloc中写remove代码。当然，如果你需要在其他时机进行remove observer,你大可放心的remove，不会出现因为没有添加而crash的问题
+2. 不用担心remove问题，不用再在dealloc中写remove代码。当然，如果你需要在其他时机进行remove observer,你大可放心的remove，不会出现因为没有添加而crash的问题。
 
 缺点：
 
